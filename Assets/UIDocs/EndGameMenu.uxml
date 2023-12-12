@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIDocs/EndGameMenu.uss?fileID=7433441132597879392&amp;guid=e00f8f76282cf9f408c7e15c042021a2&amp;type=3#EndGameMenu" />
+    <ui:VisualElement name="EndGameMenu" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:Label text="Mission Completed!" name="Title" class="EndGameTitle" style="justify-content: center;" />
+        <ui:Label tabindex="-1" text="Completed in: XX:XX:XX" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CurrentPlayerTime" style="-unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&amp;guid=4beb055f07aaff244873dec698d0363e&amp;type=3#Roboto-Bold&apos;); -unity-text-align: upper-center; -unity-font-style: bold; color: rgb(255, 255, 255); font-size: 20px;" />
+        <ui:TextField picking-mode="Ignore" label="Enter Initials" value="AAA" name="InitInput" max-length="3" style="flex-direction: column; align-self: center; -unity-text-align: upper-center; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&amp;guid=4beb055f07aaff244873dec698d0363e&amp;type=3#Roboto-Bold&apos;); -unity-font-style: bold; font-size: 16px; justify-content: center;" />
+        <ui:Button text="Submit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Submit" style="justify-content: center; align-self: center; align-items: center; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&amp;guid=4beb055f07aaff244873dec698d0363e&amp;type=3#Roboto-Bold&apos;); -unity-font-style: bold;" />
+    </ui:VisualElement>
+</ui:UXML>

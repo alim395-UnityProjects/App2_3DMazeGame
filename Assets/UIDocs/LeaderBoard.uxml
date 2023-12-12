@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIDocs/LeaderBoard.uss?fileID=7433441132597879392&amp;guid=7ccc1a3bd623edb4bad6dfc6544d03b9&amp;type=3#LeaderBoard" />
+    <ui:Label text="Leaderboard" name="Title" class="EndGameTitle LeaderboardTitle" style="justify-content: center;" />
+    <ui:VisualElement name="Content" class="LeaderboardContent" />
+    <ui:VisualElement name="Buttons" style="align-self: center; justify-content: center; align-items: center; flex-direction: row;">
+        <ui:Button text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MenuButton" class="LeaderboardButton" />
+    </ui:VisualElement>
+</ui:UXML>

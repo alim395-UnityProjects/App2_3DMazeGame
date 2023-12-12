@@ -1,0 +1,42 @@
+.LeaderboardTitle {
+    -unity-text-align: upper-center;
+    font-size: 36px;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&guid=4beb055f07aaff244873dec698d0363e&type=3#Roboto-Bold');
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+}
+
+.LeaderboardContent {
+    flex-direction: column;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&guid=4beb055f07aaff244873dec698d0363e&type=3#Roboto-Bold');
+    -unity-font-style: bold;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.LeaderboardEntry {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-right: 18px;
+    margin-bottom: 0;
+    margin-left: 18px;
+    font-size: 18px;
+    -unity-font-style: bold;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.LeaderboardButton {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Roboto-Bold.ttf?fileID=12800000&guid=4beb055f07aaff244873dec698d0363e&type=3#Roboto-Bold');
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    align-self: center;
+}
